@@ -1,0 +1,2 @@
+<li><a href="/controller?command=changeLanguage&language=en"><fmt:message key="page.lang.english"/></a></li>
+<li><a href="/controller?command=changeLanguage&language=ru"><fmt:message key="page.lang.russian"/></a></li>

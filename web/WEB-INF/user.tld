@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+    <tlib-version>2.0</tlib-version>
+    <short-name>u</short-name>
+    <uri>http://nure.kharkov.ua/userHelpTag/help</uri>
+
+    <!-- User defined tags -->
+    <tag>
+        <name>permit</name>
+        <tag-class>ua.nure.stepanenko.thesis.web.tags.PermitTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>role</name>
+        </attribute>
+    </tag>
+
+    <!-- User defined tags as tags file -->
+    <tag-file>
+        <name>search</name>
+        <path>/WEB-INF/tags/carSearchOutput.tag</path>
+    </tag-file>
+
+</taglib>
+        <!-- 5432 -->

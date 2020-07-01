@@ -1,0 +1,19 @@
+#info-table {
+    alignment: center;
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+
+#info-table TD, TH {
+    padding: 2px;
+    border: 1px solid maroon;
+    text-align: left;
+}
+
+.auth-reg-table {
+    margin-top: 100px;
+}
+
+.page-element {
+    margin-left: 50px;
+}

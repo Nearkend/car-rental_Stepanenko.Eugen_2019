@@ -1,0 +1,3 @@
+<c:if test="${not empty sessionScope.user}">
+    <li><a href="/controller?command=toPersonalPage"><fmt:message key="page.lang.personal.page"/></a></li>
+</c:if>

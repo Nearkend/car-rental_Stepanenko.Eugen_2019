@@ -1,0 +1,6 @@
+<c:if test="${not empty sessionScope.user}">
+    <c:if test="${sessionScope.user.role.name == 'admin'}">
+        <li><a href="/controller?command=toCars"><fmt:message key="page.lang.cars"/></a></li>
+        <li><a href="/controller?command=toPermission"><fmt:message key="page.lang.permission"/></a></li>
+    </c:if>
+</c:if>

@@ -1,0 +1,16 @@
+<%-- Head --%>
+<head>
+    <title>
+        ${pageScope.title}
+    </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <fmt:setLocale value="${sessionScope.language}"/>
+    <fmt:setBundle basename="locale"/>
+
+    <%-- Website Font style --%>
+    <link rel="stylesheet" href="/style/bootstrap.css">
+    <link rel="stylesheet" href="/style/common.css">
+    <link rel="stylesheet" href="/style/top_menu.css">
+</head>

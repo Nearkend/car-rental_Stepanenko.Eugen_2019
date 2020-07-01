@@ -1,0 +1,11 @@
+<form action="/controller" class="page-element">
+    <input type="hidden" name="command" value="searchCars">
+    <fmt:message key="page.lang.search"/>:
+    <input type="radio" name="by" value="class" checked><fmt:message key="page.lang.by.class"/>
+    <input type="radio" name="by" value="mark"><fmt:message key="page.lang.by.mark"/><br/>
+    <fmt:message key="page.lang.sort"/>:
+    <input type="radio" name="sort" value="name" checked><fmt:message key="page.lang.by.name" />
+    <input type="radio" name="sort" value="cost"><fmt:message key="page.lang.by.cost" /><br/><br/>
+    <input type="search" name="looking">
+    <input type="submit" class="btn btn-sm btn-primary" value="<fmt:message key="page.lang.find"/>">
+</form>
